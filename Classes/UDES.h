@@ -26,6 +26,7 @@
 //
 // Contributor(s):
 //   Paul Guyot <pguyot@kallisys.net> (original author)
+//   Jesús A. Álvarez <zydeco@namedfork.net>
 //
 // ***** END LICENSE BLOCK *****
 // ===========
