@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* NewtonKeyboardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* NewtonKeyboardAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		280CA08E10BAEB68000964AB /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 280CA08C10BAEB68000964AB /* Icon-Small.png */; };
+		280CA08F10BAEB68000964AB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 280CA08D10BAEB68000964AB /* Icon.png */; };
+		280CA09310BAED27000964AB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 280CA09210BAED27000964AB /* Default.png */; };
+		2820EA8D10B952DC00883C08 /* KeyCmd.png in Resources */ = {isa = PBXBuildFile; fileRef = 2820EA8A10B952DC00883C08 /* KeyCmd.png */; };
+		2820EA8E10B952DC00883C08 /* KeyArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 2820EA8B10B952DC00883C08 /* KeyArrowLeft.png */; };
+		2820EA8F10B952DC00883C08 /* KeyArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 2820EA8C10B952DC00883C08 /* KeyArrowRight.png */; };
+		2820EA9210B9533A00883C08 /* KeyArrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 2820EA9010B9533A00883C08 /* KeyArrowUp.png */; };
+		2820EA9310B9533A00883C08 /* KeyArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 2820EA9110B9533A00883C08 /* KeyArrowDown.png */; };
+		2820EAFC10B95D5100883C08 /* KeyCmd_Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 2820EAFB10B95D5100883C08 /* KeyCmd_Down.png */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* NewtonKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* NewtonKeyboardView.xib */; };
+		289FEAEC10B9625A006C1C5A /* UDES.cp in Sources */ = {isa = PBXBuildFile; fileRef = 289FEADE10B96258006C1C5A /* UDES.cp */; };
+		289FEAED10B9625A006C1C5A /* UDESTables.cp in Sources */ = {isa = PBXBuildFile; fileRef = 289FEADF10B96258006C1C5A /* UDESTables.cp */; };
+		289FEAEE10B9625A006C1C5A /* NewtonPassword.mm in Sources */ = {isa = PBXBuildFile; fileRef = 289FEAE110B96259006C1C5A /* NewtonPassword.mm */; };
+		289FEAEF10B9625A006C1C5A /* NSOFDataTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 289FEAE310B9625A006C1C5A /* NSOFDataTypes.m */; };
+		289FEAF010B9625A006C1C5A /* MNPPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 289FEAE510B9625A006C1C5A /* MNPPipe.m */; };
+		289FEAF110B9625A006C1C5A /* NewtonConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 289FEAE710B9625A006C1C5A /* NewtonConnection.m */; };
+		289FEAF210B9625A006C1C5A /* NSOFEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 289FEAE910B9625A006C1C5A /* NSOFEncoder.m */; };
+		289FEAF310B9625A006C1C5A /* NewtonInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 289FEAEB10B9625A006C1C5A /* NewtonInfo.m */; };
+		289FEB4510B99417006C1C5A /* NewtonMP130.png in Resources */ = {isa = PBXBuildFile; fileRef = 289FEB4410B99417006C1C5A /* NewtonMP130.png */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* NewtonKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* NewtonKeyboardViewController.m */; };
+		28E9524F10B814A500E0C9D4 /* SoftKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E9524E10B814A500E0C9D4 /* SoftKeyboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* NewtonKeyboardAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonKeyboardAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* NewtonKeyboardAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewtonKeyboardAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* NewtonKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewtonKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		280CA08C10BAEB68000964AB /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		280CA08D10BAEB68000964AB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		280CA09210BAED27000964AB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2820EA8A10B952DC00883C08 /* KeyCmd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyCmd.png; sourceTree = "<group>"; };
+		2820EA8B10B952DC00883C08 /* KeyArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyArrowLeft.png; sourceTree = "<group>"; };
+		2820EA8C10B952DC00883C08 /* KeyArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyArrowRight.png; sourceTree = "<group>"; };
+		2820EA9010B9533A00883C08 /* KeyArrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyArrowUp.png; sourceTree = "<group>"; };
+		2820EA9110B9533A00883C08 /* KeyArrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyArrowDown.png; sourceTree = "<group>"; };
+		2820EAFB10B95D5100883C08 /* KeyCmd_Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyCmd_Down.png; sourceTree = "<group>"; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* NewtonKeyboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewtonKeyboardView.xib; sourceTree = "<group>"; };
+		289FEADD10B96258006C1C5A /* UDES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDES.h; sourceTree = "<group>"; };
+		289FEADE10B96258006C1C5A /* UDES.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UDES.cp; sourceTree = "<group>"; };
+		289FEADF10B96258006C1C5A /* UDESTables.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UDESTables.cp; sourceTree = "<group>"; };
+		289FEAE010B96259006C1C5A /* NewtonPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonPassword.h; sourceTree = "<group>"; };
+		289FEAE110B96259006C1C5A /* NewtonPassword.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NewtonPassword.mm; sourceTree = "<group>"; };
+		289FEAE210B9625A006C1C5A /* NSOFDataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOFDataTypes.h; sourceTree = "<group>"; };
+		289FEAE310B9625A006C1C5A /* NSOFDataTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOFDataTypes.m; sourceTree = "<group>"; };
+		289FEAE410B9625A006C1C5A /* MNPPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNPPipe.h; sourceTree = "<group>"; };
+		289FEAE510B9625A006C1C5A /* MNPPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNPPipe.m; sourceTree = "<group>"; };
+		289FEAE610B9625A006C1C5A /* NewtonConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonConnection.h; sourceTree = "<group>"; };
+		289FEAE710B9625A006C1C5A /* NewtonConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewtonConnection.m; sourceTree = "<group>"; };
+		289FEAE810B9625A006C1C5A /* NSOFEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOFEncoder.h; sourceTree = "<group>"; };
+		289FEAE910B9625A006C1C5A /* NSOFEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOFEncoder.m; sourceTree = "<group>"; };
+		289FEAEA10B9625A006C1C5A /* NewtonInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonInfo.h; sourceTree = "<group>"; };
+		289FEAEB10B9625A006C1C5A /* NewtonInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewtonInfo.m; sourceTree = "<group>"; };
+		289FEB4410B99417006C1C5A /* NewtonMP130.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewtonMP130.png; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* NewtonKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonKeyboardViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* NewtonKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewtonKeyboardViewController.m; sourceTree = "<group>"; };
+		28E9524D10B814A500E0C9D4 /* SoftKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftKeyboard.h; sourceTree = "<group>"; };
+		28E9524E10B814A500E0C9D4 /* SoftKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoftKeyboard.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* NewtonKeyboard_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonKeyboard_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				289FEADD10B96258006C1C5A /* UDES.h */,
+				289FEADE10B96258006C1C5A /* UDES.cp */,
+				289FEADF10B96258006C1C5A /* UDESTables.cp */,
+				289FEAE010B96259006C1C5A /* NewtonPassword.h */,
+				289FEAE110B96259006C1C5A /* NewtonPassword.mm */,
+				289FEAE210B9625A006C1C5A /* NSOFDataTypes.h */,
+				289FEAE310B9625A006C1C5A /* NSOFDataTypes.m */,
+				289FEAE410B9625A006C1C5A /* MNPPipe.h */,
+				289FEAE510B9625A006C1C5A /* MNPPipe.m */,
+				289FEAE610B9625A006C1C5A /* NewtonConnection.h */,
+				289FEAE710B9625A006C1C5A /* NewtonConnection.m */,
+				289FEAE810B9625A006C1C5A /* NSOFEncoder.h */,
+				289FEAE910B9625A006C1C5A /* NSOFEncoder.m */,
+				289FEAEA10B9625A006C1C5A /* NewtonInfo.h */,
+				289FEAEB10B9625A006C1C5A /* NewtonInfo.m */,
+				1D3623240D0F684500981E51 /* NewtonKeyboardAppDelegate.h */,
+				1D3623250D0F684500981E51 /* NewtonKeyboardAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* NewtonKeyboardViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* NewtonKeyboardViewController.m */,
+				28E9524D10B814A500E0C9D4 /* SoftKeyboard.h */,
+				28E9524E10B814A500E0C9D4 /* SoftKeyboard.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* NewtonKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* NewtonKeyboard_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				280CA09210BAED27000964AB /* Default.png */,
+				280CA08C10BAEB68000964AB /* Icon-Small.png */,
+				280CA08D10BAEB68000964AB /* Icon.png */,
+				289FEB4410B99417006C1C5A /* NewtonMP130.png */,
+				2820EA8A10B952DC00883C08 /* KeyCmd.png */,
+				2820EAFB10B95D5100883C08 /* KeyCmd_Down.png */,
+				2820EA9010B9533A00883C08 /* KeyArrowUp.png */,
+				2820EA9110B9533A00883C08 /* KeyArrowDown.png */,
+				2820EA8B10B952DC00883C08 /* KeyArrowLeft.png */,
+				2820EA8C10B952DC00883C08 /* KeyArrowRight.png */,
+				2899E5210DE3E06400AC0155 /* NewtonKeyboardView.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* NewtonKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NewtonKeyboard" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewtonKeyboard;
+			productName = NewtonKeyboard;
+			productReference = 1D6058910D05DD3D006BFB54 /* NewtonKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NewtonKeyboard" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* NewtonKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* NewtonKeyboardView.xib in Resources */,
+				2820EA8D10B952DC00883C08 /* KeyCmd.png in Resources */,
+				2820EA8E10B952DC00883C08 /* KeyArrowLeft.png in Resources */,
+				2820EA8F10B952DC00883C08 /* KeyArrowRight.png in Resources */,
+				2820EA9210B9533A00883C08 /* KeyArrowUp.png in Resources */,
+				2820EA9310B9533A00883C08 /* KeyArrowDown.png in Resources */,
+				2820EAFC10B95D5100883C08 /* KeyCmd_Down.png in Resources */,
+				289FEB4510B99417006C1C5A /* NewtonMP130.png in Resources */,
+				280CA08E10BAEB68000964AB /* Icon-Small.png in Resources */,
+				280CA08F10BAEB68000964AB /* Icon.png in Resources */,
+				280CA09310BAED27000964AB /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* NewtonKeyboardAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* NewtonKeyboardViewController.m in Sources */,
+				28E9524F10B814A500E0C9D4 /* SoftKeyboard.m in Sources */,
+				289FEAEC10B9625A006C1C5A /* UDES.cp in Sources */,
+				289FEAED10B9625A006C1C5A /* UDESTables.cp in Sources */,
+				289FEAEE10B9625A006C1C5A /* NewtonPassword.mm in Sources */,
+				289FEAEF10B9625A006C1C5A /* NSOFDataTypes.m in Sources */,
+				289FEAF010B9625A006C1C5A /* MNPPipe.m in Sources */,
+				289FEAF110B9625A006C1C5A /* NewtonConnection.m in Sources */,
+				289FEAF210B9625A006C1C5A /* NSOFEncoder.m in Sources */,
+				289FEAF310B9625A006C1C5A /* NewtonInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NewtonKeyboard_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = NewtonKeyboard;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NewtonKeyboard_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = NewtonKeyboard;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NewtonKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NewtonKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

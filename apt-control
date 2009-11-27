@@ -1,0 +1,9 @@
+Package: net.namedfork.netwonkbd
+Name: Newton Keyboard
+Version: $VERSION
+Architecture: iphoneos-arm
+Description: Newton Keyboard emulator
+Homepage: http://namedfork.net/iphone/newtonkbd
+Maintainer: Jesus A. Alvarez <zydeco@namedfork.net>
+Author: Jesus A. Alvarez <zydeco@namedfork.net>
+Section: Utilities
