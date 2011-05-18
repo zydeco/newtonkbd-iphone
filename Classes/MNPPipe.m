@@ -24,8 +24,8 @@
 #include <termios.h>
 #include <fcntl.h>
 
-#define MNPLog(__fmt, ...) NSLog(__fmt, ## __VA_ARGS__)
-//#define MNPLog(__fmt, ...)
+//#define MNPLog(__fmt, ...) NSLog(__fmt, ## __VA_ARGS__)
+#define MNPLog(__fmt, ...)
 
 NSString * MNPPipeConnectionEstablishedNotification = @"MNPPipeConnectionEstablished";
 NSString * MNPPipeConnectionLostNotification = @"MNPPipeConnectionLost";
@@ -107,7 +107,7 @@ static uint8_t frmMNPLinkRequestAck[] = {23,1,2,1,6,1,0,0,0,0,255,2,1,2,3,1,1,4,
         int fd = open([path fileSystemRepresentation], O_RDWR | O_NOCTTY | O_NDELAY);
         if (fd == -1) fd = open([[@"/dev" stringByAppendingPathComponent:path] fileSystemRepresentation], O_RDWR | O_NOCTTY | O_NDELAY);
         if (fd == -1) {
-            NSLog(@"[MNPPipe initWithSerialPort:\"%@\" speed:%lu]: %s", path, serialSpeed, strerror(errno));
+            MNPLog(@"[MNPPipe initWithSerialPort:\"%@\" speed:%lu]: %s", path, serialSpeed, strerror(errno));
             [self release];
             return nil;
         }
@@ -318,7 +318,7 @@ static inline int MNPPipe__gotByte(MNPPipe *self, const uint8_t *byte) {
 }
 
 - (int)_writeFrame:(const uint8_t *)data length:(size_t)size {
-    NSLog(@"MNP Send: %@", [NSData dataWithBytes:data length:size]);
+    MNPLog(@"MNP Send: %@", [NSData dataWithBytes:data length:size]);
     int fd = [fh fileDescriptor];
     uint16_t crc = 0;
     // TODO error checking on write
